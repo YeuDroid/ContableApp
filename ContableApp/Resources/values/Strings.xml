@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">GCuentas</string>
+
+  <string-array name="T_PAGOS_STR">
+    <item>Efectivo</item>
+    <item>Targeta de credito</item>
+    <item>Targeta de dedito</item>
+  </string-array>
+
+<string-array name="MENU_VER">
+    <item>Datos basicos</item>
+    <item>Todos los datos</item>
+    <item>Solo Cant. y Concepto</item>
+    <item>Solo gastos con TDC</item>
+    <item>Solo Cant. y F.Pago</item>
+    <item>Solo ingreso de dinero</item>
+    <item>Solo salidas de dinero</item>
+    <item>Solo Cant. y Fecha</item>
+  </string-array>
+</resources>

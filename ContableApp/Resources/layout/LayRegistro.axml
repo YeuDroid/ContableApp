@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout1">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout2"
+                android:background="@android:color/black">
+                <TextView
+                    android:text="Escoga la forma de ver los datos:"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1" />
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinerOpciones" />
+            </LinearLayout>
+            <TextView
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvLogRegistro" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="#ffffcc"
+        android:orientation="horizontal">
+        <Button
+            android:text="salir"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bSalir"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+        <Button
+            android:text="Borrar E/S"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/borrarReg"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>
